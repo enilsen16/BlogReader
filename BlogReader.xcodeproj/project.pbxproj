@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0351E0D61AE6A94000F52090 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0351E0D51AE6A94000F52090 /* Default-568h@2x.png */; };
 		03A5A9541AE694E200A230F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5A9531AE694E200A230F9 /* main.m */; };
 		03A5A9571AE694E200A230F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5A9561AE694E200A230F9 /* AppDelegate.m */; };
-		03A5A95A1AE694E200A230F9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5A9591AE694E200A230F9 /* MasterViewController.m */; };
-		03A5A95D1AE694E200A230F9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5A95C1AE694E200A230F9 /* DetailViewController.m */; };
-		03A5A9601AE694E200A230F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A5A95E1AE694E200A230F9 /* Main.storyboard */; };
 		03A5A9621AE694E200A230F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A5A9611AE694E200A230F9 /* Images.xcassets */; };
-		03A5A9651AE694E200A230F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A5A9631AE694E200A230F9 /* LaunchScreen.xib */; };
 		03A5A9711AE694E300A230F9 /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5A9701AE694E300A230F9 /* BlogReaderTests.m */; };
 /* End PBXBuildFile section */
 
@@ -28,18 +25,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0351E0D51AE6A94000F52090 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		03A5A94E1AE694E200A230F9 /* BlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A5A9521AE694E200A230F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A5A9531AE694E200A230F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03A5A9551AE694E200A230F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03A5A9561AE694E200A230F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03A5A9581AE694E200A230F9 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		03A5A9591AE694E200A230F9 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		03A5A95B1AE694E200A230F9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		03A5A95C1AE694E200A230F9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		03A5A95F1AE694E200A230F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03A5A9611AE694E200A230F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		03A5A9641AE694E200A230F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		03A5A96A1AE694E300A230F9 /* BlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A5A96F1AE694E300A230F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A5A9701AE694E300A230F9 /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
@@ -66,6 +58,7 @@
 		03A5A9451AE694E200A230F9 = {
 			isa = PBXGroup;
 			children = (
+				0351E0D51AE6A94000F52090 /* Default-568h@2x.png */,
 				03A5A9501AE694E200A230F9 /* BlogReader */,
 				03A5A96D1AE694E300A230F9 /* BlogReaderTests */,
 				03A5A94F1AE694E200A230F9 /* Products */,
@@ -86,13 +79,7 @@
 			children = (
 				03A5A9551AE694E200A230F9 /* AppDelegate.h */,
 				03A5A9561AE694E200A230F9 /* AppDelegate.m */,
-				03A5A9581AE694E200A230F9 /* MasterViewController.h */,
-				03A5A9591AE694E200A230F9 /* MasterViewController.m */,
-				03A5A95B1AE694E200A230F9 /* DetailViewController.h */,
-				03A5A95C1AE694E200A230F9 /* DetailViewController.m */,
-				03A5A95E1AE694E200A230F9 /* Main.storyboard */,
 				03A5A9611AE694E200A230F9 /* Images.xcassets */,
-				03A5A9631AE694E200A230F9 /* LaunchScreen.xib */,
 				03A5A9511AE694E200A230F9 /* Supporting Files */,
 			);
 			path = BlogReader;
@@ -204,9 +191,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A5A9601AE694E200A230F9 /* Main.storyboard in Resources */,
-				03A5A9651AE694E200A230F9 /* LaunchScreen.xib in Resources */,
 				03A5A9621AE694E200A230F9 /* Images.xcassets in Resources */,
+				0351E0D61AE6A94000F52090 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,9 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A5A9571AE694E200A230F9 /* AppDelegate.m in Sources */,
-				03A5A95A1AE694E200A230F9 /* MasterViewController.m in Sources */,
 				03A5A9541AE694E200A230F9 /* main.m in Sources */,
-				03A5A95D1AE694E200A230F9 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,25 +232,6 @@
 			targetProxy = 03A5A96B1AE694E300A230F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		03A5A95E1AE694E200A230F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03A5A95F1AE694E200A230F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		03A5A9631AE694E200A230F9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03A5A9641AE694E200A230F9 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		03A5A9721AE694E300A230F9 /* Debug */ = {
@@ -422,6 +387,7 @@
 				03A5A9761AE694E300A230F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03A5A9771AE694E300A230F9 /* Build configuration list for PBXNativeTarget "BlogReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +396,7 @@
 				03A5A9791AE694E300A230F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
